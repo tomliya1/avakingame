@@ -1,0 +1,43 @@
+# This repository is documentation. Never commit game binaries, decompiled
+# sources, extracted assets, or anything derived from a live account.
+*.dll
+*.pdb
+*.exe
+*.so
+*.dylib
+*.db
+*.db2
+*.assetbundle
+*.assets
+*.resS
+*.resource
+_decompiled/
+Managed/
+il2cppOutput/
+GameAssembly*
+UnityPlayer*
+Dumped/
+Logs/
+*.log
+
+# Credentials and session material
+credentials*.json
+session.json
+device*.json
+secrets*.json
+*.jwe
+*.token
+
+# Python scratch
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
